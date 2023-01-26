@@ -1,23 +1,35 @@
 import { useState } from "react";
 import Card from "./Card";
 import "../Styles/Cardmat.css"
+import Aquarius from "../Assets/Aquarius.jpeg"
+import Aries from "../Assets/Aries.jpeg"
+import Cancer from "../Assets/Cancer.jpeg"
+import Capricorn from "../Assets/Capricorn.jpeg"
+import Gemini from "../Assets/Gemini.jpeg"
+import Leo from "../Assets/Leo.jpeg"
+import Libra from "../Assets/Libra.jpeg"
+import Pisces from "../Assets/Pisces.jpeg"
+import Sagittarius from "../Assets/Sagittarius.jpeg"
+import Scorpio from "../Assets/Scorpio.jpeg"
+import Taurus from "../Assets/Taurus.jpeg"
+import Virgo from "../Assets/Virgo.jpeg"
 
 function Cardmat(props) {
 
   // Deck of cards represesnted as objects, with text, id, and a picture properties
   const deck = [
-    {name: "john", id: 0},
-    {name: "sara", id: 1},
-    {name: "jake", id: 2},
-    {name: "diana", id: 3},
-    {name: "rebecca", id: 4},
-    {name: "omar", id: 5},
-    {name: "steve", id: 6},
-    {name: "phillip", id: 7},
-    {name: "tara", id: 8},
-    {name: "deb", id: 9},
-    {name: "clyde", id: 10},
-    {name: "shiv", id: 11}
+    {name: "john", id: 0, img: Aquarius},
+    {name: "sara", id: 1, img: Aries},
+    {name: "jake", id: 2, img: Cancer},
+    {name: "diana", id: 3, img: Capricorn},
+    {name: "rebecca", id: 4, img: Gemini},
+    {name: "omar", id: 5, img: Leo},
+    {name: "steve", id: 6, img: Libra},
+    {name: "phillip", id: 7, img: Pisces},
+    {name: "tara", id: 8, img: Sagittarius},
+    {name: "deb", id: 9, img: Scorpio},
+    {name: "clyde", id: 10, img: Taurus},
+    {name: "shiv", id: 11, img: Virgo}
   ]
 
   // state of our Cardmap component, intializes the deck in order

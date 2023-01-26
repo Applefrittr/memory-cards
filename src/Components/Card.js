@@ -11,9 +11,11 @@ function Card(props) {
 
     // creates an array of elements using map() and the props.cards as parameter array
     const array = props.cards.map(card => {
-        return <div key={card.id} id = {card.id} onClick={clicked} className="card">
-            <div className="name">{card.name}</div>
+        return (
+            <div key={card.id} id = {card.id} onClick={clicked} className="card">
+                <img src={card.img} alt={card.name} onClick={clicked} id = {card.id}></img>
             </div>
+        )
     })   
     return (
         <div id="card-container">
