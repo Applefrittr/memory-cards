@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "./Card";
+import "../Styles/Cardmat.css"
 
 function Cardmat(props) {
 
@@ -43,10 +44,12 @@ function Cardmat(props) {
     }
   }
 
-  return <div className="card-mat">
+  return (
+  <div className="card-mat">
     <h1>Cards</h1>
     <Card cards = {cards} shuffle = {cardShuffle} increment = {props.increment} picked = {picked}/>
-  </div>;
+  </div>
+  )
 }
 
 //// shuffle function (Fisher-Yates algorithm)////

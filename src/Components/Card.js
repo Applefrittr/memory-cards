@@ -1,3 +1,5 @@
+import "../Styles/Card.css"
+
 function Card(props) {
 
     // container fuction clicked fires 3 seperate fucntions passed to the Card component as props when an element is clicked
@@ -7,12 +9,14 @@ function Card(props) {
         props.picked(event) // <-- from Cardmat component
     }
 
-    // creates an array of elements using the props.cards as parameter array
+    // creates an array of elements using map() and the props.cards as parameter array
     const array = props.cards.map(card => {
-        return <h1 key={card.id} id = {card.id} onClick={clicked}>{card.name}</h1>
+        return <div key={card.id} id = {card.id} onClick={clicked} className="card">
+            <div className="name">{card.name}</div>
+            </div>
     })   
     return (
-        <div>
+        <div id="card-container">
             {array}
         </div>
     )

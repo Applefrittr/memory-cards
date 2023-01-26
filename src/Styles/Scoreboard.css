@@ -1,0 +1,21 @@
+#scoreboard-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bold;
+}
+
+.display {
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+}
+
+#score {
+    background-color: green;
+}
+
+#best {
+    background-color: blue;
+}
