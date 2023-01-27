@@ -28,3 +28,19 @@ img {
     height: 100%;
     border-radius: 10px;
 }
+
+@keyframes shake {
+    0%      {transform: rotate(2deg);}
+    33%     {transform: rotate(-4deg);}
+    66%     {transform: rotate(4deg);}
+    100%    {transform: rotate(-2deg);}
+}
+
+.card:hover {
+    animation: shake .25s ease-in;
+    box-shadow: 1px 2px 50px 10px orangered;
+}
+
+.card:active {
+    transform: scale(95%);
+}

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Card from "./Card";
-import "../Styles/Cardmat.css"
 import Aquarius from "../Assets/Aquarius.jpeg"
 import Aries from "../Assets/Aries.jpeg"
 import Cancer from "../Assets/Cancer.jpeg"
@@ -58,7 +57,6 @@ function Cardmat(props) {
 
   return (
   <div className="card-mat">
-    <h1>Cards</h1>
     <Card cards = {cards} shuffle = {cardShuffle} increment = {props.increment} picked = {picked}/>
   </div>
   )

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Scoreboard from "./Components/Scoreboard"
 import Cardmat from "./Components/Cardmat"
 import "./Styles/App.css"
-import Git from "./Assets/git.png"
+import Git from "./Assets/gitWHITEOUTLINE.png"
 
 // App component, has the score and bestscore states
 function App() {
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Memory Game</h1>
+      <h1>Zodiac Memory</h1>
       <Scoreboard score = {score} best = {best} increment = {increment} clear = {clear}/>
       <Cardmat increment = {increment} clear = {clear}/>
       <footer>

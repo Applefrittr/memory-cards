@@ -2,6 +2,14 @@
     margin: 0;
     box-sizing: border-box;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 1px 0 10px orangered;
 }
 
 #root {
@@ -9,11 +17,13 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    background-image: url(../Assets/Galaxy.jpg);
+    background-size: cover;
 }
 
 .App {
     width: 80%;
-    background-color: bisque;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,9 +37,13 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    font-size: 1.5rem;
+    text-shadow: 1px 0px 5px black;
   }
   
   a>img {
     width: 24px;
     height: auto;
+    box-shadow: 1px 0px 5px black;
+    border-radius: 50%;
   }

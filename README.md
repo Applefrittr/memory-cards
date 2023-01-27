@@ -1,3 +1,12 @@
+# Memory Card Game created by Applefrittr
+
+Memory Card game that employs function components and hooks from the React library to create the game UI and DOM updates as the user plays.
+
+Zodiac card images from https://www.freepik.com/free-vector/aesthetic-zodiac-signs-doodle-art-collection-vector_20776465.htm#query=zodiac&position=11&from_view=keyword
+Background Galaxy image from "https://www.vecteezy.com/free-vector/astral
+
+Live preview: https://applefrittr.github.io/memory-cards/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
