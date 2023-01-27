@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/memory-cards/static/css/main.db6a8848.css",
+    "main.js": "/memory-cards/static/js/main.62fa1653.js",
+    "static/media/Galaxy.jpg": "/memory-cards/static/media/Galaxy.047094164577f788542d.jpg",
+    "static/media/Virgo.jpeg": "/memory-cards/static/media/Virgo.6951d9a9dc38535c329c.jpeg",
+    "static/media/Aries.jpeg": "/memory-cards/static/media/Aries.3fd51ff43a28406de157.jpeg",
+    "static/media/Leo.jpeg": "/memory-cards/static/media/Leo.bd4a522ea2a8270af16f.jpeg",
+    "static/media/Pisces.jpeg": "/memory-cards/static/media/Pisces.2af367236a1bd4c86faf.jpeg",
+    "static/media/Capricorn.jpeg": "/memory-cards/static/media/Capricorn.53018b0ca15c4e6c666d.jpeg",
+    "static/media/Gemini.jpeg": "/memory-cards/static/media/Gemini.c633d9e8d6fea9271deb.jpeg",
+    "static/media/Taurus.jpeg": "/memory-cards/static/media/Taurus.b7eb53ff611b1ec7d52f.jpeg",
+    "static/media/Scorpio.jpeg": "/memory-cards/static/media/Scorpio.95043d6948b2dd79a84a.jpeg",
+    "static/media/Libra.jpeg": "/memory-cards/static/media/Libra.0cf61a7c68702eff114b.jpeg",
+    "static/media/Cancer.jpeg": "/memory-cards/static/media/Cancer.6650466425491a59fc1a.jpeg",
+    "static/media/Sagittarius.jpeg": "/memory-cards/static/media/Sagittarius.7ff5ced1adc172397cdb.jpeg",
+    "static/media/Aquarius.jpeg": "/memory-cards/static/media/Aquarius.9faaa67e615aa47912e7.jpeg",
+    "index.html": "/memory-cards/index.html",
+    "main.db6a8848.css.map": "/memory-cards/static/css/main.db6a8848.css.map",
+    "main.62fa1653.js.map": "/memory-cards/static/js/main.62fa1653.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db6a8848.css",
+    "static/js/main.62fa1653.js"
+  ]
+}
